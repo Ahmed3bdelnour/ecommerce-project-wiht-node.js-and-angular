@@ -1,0 +1,5 @@
+<p *ngIf="dataService.message">
+  <ngb-alert [type]="dataService.messageType" [dismissible]="false">
+    {{ dataService.message }}
+  </ngb-alert>
+</p>
